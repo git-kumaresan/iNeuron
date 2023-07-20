@@ -131,3 +131,30 @@ select marital, count(*) from bank_details group by marital
 
 
 """
+
+"""
+NOTES:
+
+In SQL, a JOIN clause is used to combine rows from two or more tables based on a common field between them.
+There are several types of JOINs available in SQL, including INNER JOIN, LEFT JOIN, and RIGHT JOIN.
+
+INNER JOIN: This type of join returns rows when there is a match in both tables.
+In other words, it gives the intersection of the two tables, i.e. rows that TableA and TableB have in common1.
+
+LEFT JOIN: This type of join returns all rows from the left table, even if there are no matches in the right table.
+It gives all selected rows in TableA, plus any common selected rows in TableB1.
+
+RIGHT JOIN: This type of join returns all rows from the right table, even if there are no matches in the left table.
+It is similar to LEFT JOIN but returns all the rows of the table on the right side of the join and matching rows for the table on the left side of the join1.
+
+Each type of join has its own use cases and can be used to achieve different results when querying data from multiple tables.
+"""
+
+
+"""
+TASK:
+
+networking class... IP addresses ..  
+
+
+"""
